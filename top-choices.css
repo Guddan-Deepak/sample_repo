@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height:150vh;
+}
+
+.container{
+    height:100vh;
+}
+.card-list .card-items{
+    height:50vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:8px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+#card-items1{
+    height:50vh;
+    width: 20vh;
+    background-image:url("top_choices_images\khajurao.jpg");
+    background-size: cover;
+    border-radius:5vh;
+}
+
+#card-items2{
+    height:50vh;
+    width: 20vh;
+    background-image:url("top_choices_images\Manali_City.jpg");
+    background-size: cover;
+    border-radius:5vh;
+}
+
+#card-items3{
+    height:50vh;
+    width: 20vh;
+    background-image:url("top_choices_images\puri.jpg");
+    background-size: cover;
+    border-radius:5vh;
+}
+
+#card-items4{
+    height:50vh;
+    width: 20vh;
+    background-image:url("top_choices_images\pachmarhi-5.jpg");
+    background-size: cover;
+    border-radius:5vh;
+}
+
+#card-items5{
+    height:50vh;
+    width: 20vh;
+    background-image:url("top_choices_images\DArjeeling2.jpg");
+    background-size: cover;
+    border-radius:5vh;
+}
+h2{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+

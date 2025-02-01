@@ -1,1 +1,2 @@
-vansh and deepak are very close friend and seems to have a bright future ahead.
+my life my rules
+

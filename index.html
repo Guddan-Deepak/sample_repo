@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIPIX</title>
+    <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="styleheader.css">
+    <link rel="stylesheet" href="stylebutton.css">
+    <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="3d_scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- <script src="header.js"></script> -->
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="nav">
+          <div class="upbox">
+            <!-- if you want to add color to logo -->
+            <!-- <div class="btn"><img src="tripix-logo.png" alt="logo" /></div> -->
+            <a href="index.html"><img src="header_images\tripix-logo.png" alt="logo" /></a>
+            
+            
+            <div class="search">
+              <input type="text" placeholder="   Search here..." />
+              <img src="header_images\search (1).svg" alt="search" />
+            </div>
+            <div class="nav-buttons">
+              <div 
+                ><button class="btn button1">
+                  <i class="fa-solid fa-user"></i><div><a href="login.html">Sign in</a></div></button
+              ></div>
+              <div><button class="btn button2">Register</button></div>
+            </div>
+          </div>
+          <div class="downbox">
+            <div class="hamburger-menu">
+              <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav class="mobile-nav">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Book your Hotel</a></li>
+                  <li><a href="#">Book your flights</a></li>
+                  <li><a href="#">Book your trains</a></li>
+                  <li><a href="#">Special Packages</a></li>
+                  <li><a href="#">HELP</a></li>
+              </ul>
+          </nav>
+          
+            <div class="menu">
+            <div class="Home">
+              <a href="" id="Home">Home</a>
+            </div>
+            <div class="About" id="About">
+              <a href="">About</a>
+            </div>
+            <div class="Contact" id="Contact">
+              <a href="">Contact</a>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </header>
+    <!-- MAIN TAG -->
+    <div class="video">
+      <video autoplay loop muted playsinline>
+          <source src="index page video.mp4" type="video/mp4">
+      </video>
+  </div>
+  <!-- DESTINATION SLIDER -->
+  <div class="slider">
+  <h1>Place to explore</h1>
+  <div class="container swiper">
+    <div class="slider-wrapper">
+
+        <div class="card-list swiper-wrapper">
+            <div class="card-items  swiper-slide" id="card-items1">
+            
+                <h2>Khajurao</h2>
+            </div>
+    
+            <div class="card-items  swiper-slide" id="card-items2">
+                
+                <h2>Manali City</h2>
+            </div>
+            <div class="card-items  swiper-slide" id="card-items3">
+                
+                <h2>Puri</h2>
+            </div>
+            <div class="card-items  swiper-slide" id="card-items4">
+                
+                <h2>Pachmarhi</h2>
+            </div>
+            <div class="card-items  swiper-slide" id="card-items5">
+              
+                <a href="darjeeling.html"><h2>Darjeeling</h2></a>
+            </div>
+        </div>
+       
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+   </div>
+   </div>
+    <!-- change in text  -->
+     
+   <!-- 3d slider  -->
+   <div class="gallery">
+    <div class="gallery-container">
+        <img class="gallery-item gallery-item-1" src="3d_scroll_images\sundarban (1).jpg" data-index="1">
+        <img class="gallery-item gallery-item-2" src="3d_scroll_images\river_rafting_uttrakhand.jpg" data-index="2">
+        <img class="gallery-item gallery-item-3" src="3d_scroll_images\pachmarhi-5.jpg" data-index="3">
+        <img class="gallery-item gallery-item-4" src="3d_scroll_images\DArjeeling2.jpg" data-index="4">
+        <img class="gallery-item gallery-item-5" src="3d_scroll_images\bungee.jpg" data-index="5">
+        <img class="gallery-item gallery-item-6" src="3d_scroll_images\khajurao.jpg" data-index="6">
+        <img class="gallery-item gallery-item-7" src="3d_scroll_images\camel-safari.png" data-index="7">
+    </div>
+    <div class="gallery-controls"></div>
+</div>
+    <!-- Frequently asked Questions -->
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <ul class="FAQs">
+          <li>
+              <input type="radio" name="FAQs" id="first">
+              <label for="first"> What destinations does TRIPIX cover?</label>
+              <div class="content">
+                <p>TRIPIX offers travel guides and packages for a wide range of destinations, including popular tourist spots, hidden gems, and cultural hotspots across the globe. Whether you're looking for a beach vacation, a mountain retreat, or a city tour, we've got you covered!</p>
+              </div>
+          </li>
+          <li>
+              <input type="radio" name="FAQs" id="second">
+              <label for="second">How do I book a trip on TRIPIX?</label>
+              <div class="content">
+              <p>Booking a trip on TRIPIX is easy! Simply browse through our destinations, select your preferred package, and follow the prompts to complete your booking. You can also contact our customer support team for assistance.</p>
+              </div>
+          </li>
+          <li>
+              <input type="radio" name="FAQs" id="third">
+              <label for="third">What payment methods are accepted?</label>
+              <div class="content">
+                <p>We accept a variety of payment methods, including credit/debit cards, PayPal, and bank transfers. All transactions are secure and encrypted for your safety.</p>
+              </div>
+          </li>
+          <li>
+              <input type="radio" name="FAQs" id="fourth">
+              <label for="fourth">What should I do if I lose my travel documents?</label>
+              <div class="content">
+                <p>If you lose your travel documents, contact our customer support team immediately. We’ll guide you through the process of replacing them and ensure your trip continues smoothly.</p>
+              </div>
+          </li>
+          <li>
+              <input type="radio" name="FAQs" id="fifth">
+              <label for="fifth">What types of accommodations do you offer?</label>
+              <div class="content">
+                <p>We offer a variety of accommodations, including luxury hotels, budget-friendly hostels, resorts, and vacation rentals. You can choose the option that best suits your preferences and budget.</p>
+              </div>
+          </li>
+          <li>
+              <input type="radio" name="FAQs" id="sixth">
+              <label for="sixth">Can I book flights through TRIPIX?</label>
+              <div class="content">
+                  <p>Yes, we offer flight booking services as part of our travel packages. You can also book flights separately through our platform.</p>              
+                </div>
+          </li>
+      </ul>
+  </div>
+
+    <footer>
+      <!-- FOOTER PANEL 1 -->
+        <div class="footpanel1">
+            <a href="index.html">Back to Top</a>
+        </div>
+      <!-- FOOTER PANEL 2 -->
+        <div class="footpanel2">
+            <div class="footpanel3">
+                <div class="logo"></div>
+                <div class="icons">
+                    <a id="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a id="youtube"><i class="fa-brands fa-youtube"></i></a>
+                    <a id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+            <ul class="footer-links-1">
+                <p>Quick links</p>
+                <a href="#">Attractions</a>
+                <a href="#">Experiences</a>
+                <a href="#">Festivals and Events</a>
+                <a href="#">FAQs</a>
+                <a href="#">Know about TRIPIX</a>
+            </ul>
+            <ul class="footer-links-2">
+                <p>Let Us Help You</p>
+                <a href="#">Travel Guide</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Bookings</a>
+                <a href="#">Help</a>
+            </ul>
+          </div>
+        </div>
+        <div class="footpanel4">
+            <div class="pages">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="copyright">
+                © 2025: TRIPIX : Inclusive of all rights
+            </div>
+        </div>
+    </footer>
+    <!-- linking swiperjs script -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+
+   <!-- linking our custom script -->
+   <script src="top-choices.js"></script>
+   <script src="3d_scroll.js"></script>
+   <script src="header.js"></script>
+</body>
+</html>

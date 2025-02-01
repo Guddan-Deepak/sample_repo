@@ -1,0 +1,142 @@
+/*footer*/
+footer {
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.footpanel1 {
+    background-color: #E7D6BC;
+    color: rgb(47, 15, 15);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footpanel2 {
+    background-image: url("footer_images/footer.jpg");
+    background-size: cover;
+    color: rgb(84, 11, 11);
+    display: flex;
+    justify-content: space-between; /* Adjusted to align logo and links side by side */
+    flex-wrap: wrap;
+    padding: 20px 5%; /* Added padding for better spacing */
+    align-items: flex-start;
+}
+
+.footpanel3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align logo and icons to the left */
+    margin-right: 50px; /* Add space between logo and links */
+}
+
+.logo {
+    background-image: url('footer_images/tripix logo.png');
+    background-size: cover;
+    height: 75px;
+    width: 150px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start; /* Align icons to the left */
+    margin-top: 20px;
+}
+
+.icons a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#linkedin { color: #0a66c2; }
+#instagram { color: #cf3050; }
+#youtube { color: #f50535; }
+#facebook { color: #3F51B5; }
+
+.icons a:hover {
+    color: #dcd971;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 60%; /* Adjusted width to fit links section */
+}
+
+ul {
+    margin: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #bac949;
+    text-decoration: none;
+}
+
+ul p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footpanel4 {
+    background-color: #64430a;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1px;
+}
+
+.pages {
+    margin-top: 10px;
+}
+
+.pages a {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-top: 5px;
+    margin-left: -1.5rem;
+    color: white;
+}
+
+.footer-links-1,
+.footer-links-2 {
+    display: flex;
+    flex-direction: column; /* Stacks links vertically */
+    align-items: flex-start; /* Align links to the left */
+    margin-bottom: 20px;
+}
+
+.footer-links-1 a,
+.footer-links-2 a {
+    color: #671e24;
+    text-decoration: none;
+    margin: 5px 0; /* Adds vertical spacing */
+}
+
+.footer-links-1 p,
+.footer-links-2 p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px; /* Spacing between heading and links */
+}
